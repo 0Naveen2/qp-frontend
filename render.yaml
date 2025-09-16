@@ -1,0 +1,10 @@
+services:
+  - type: static_site
+    name: qparchive-frontend # Make sure this name matches your service name on Render
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
