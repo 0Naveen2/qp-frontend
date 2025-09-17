@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer.jsx';
-import Header from './components/Header';
+import Header from '../components/Header';
 import { getDepartments, getCoursesByDepartment, getSubjectsByCourseAndSemester, getPapersBySubject, downloadPaper, deletePaper } from '../services/paperService';
 
 function DashboardPage({ onLogout }) {
