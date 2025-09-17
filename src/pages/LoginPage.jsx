@@ -52,7 +52,7 @@ function LoginPage({ onLoginSuccess }) {
 
                     {/* --- TEXT CHANGES --- */}
                     <h1 className="text-3xl font-bold text-center text-gray-900" style={{ textShadow: '0 1px 2px rgba(255,255,255,0.5)' }}>
-                        Student & Faculty Login
+                        User & Admin Login
                     </h1>
                     <p className="text-center text-gray-800 font-medium">
                         Please enter your credentials to proceed.
